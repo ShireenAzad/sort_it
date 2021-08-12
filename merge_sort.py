@@ -38,3 +38,4 @@ if __name__ == '__main__':
 	mergeSort(arr)
 	print("Sorted array is: ", end="\n")
 	printList(arr)
+#output- 23,32,43,76,98
