@@ -36,9 +36,18 @@ class MergeSort:
 # Driver Code
 if __name__ == '__main__':
 	arr = [98,32,76,43,23]
+<<<<<<< HEAD
 	print("Given array is \n")
 	merge = MergeSort(arr)
 	merge.printList(arr)
 	merge.mergeSort(arr)
 	print("Sorted array is:\n")
 	merge.printList(arr)
+=======
+	print("Given array is", end="\n")
+	printList(arr)
+	mergeSort(arr)
+	print("Sorted array is: ", end="\n")
+	printList(arr)
+#output- 23,32,43,76,98
+>>>>>>> 58c634613cc85f03e4609d7c106f5b0f21845545
